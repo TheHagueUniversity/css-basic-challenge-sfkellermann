@@ -94,6 +94,41 @@ header {
   background: rgba(47, 48, 97, 80%);
 }
 
+/* Hobbies / Thumbnails
+------------------------------------*/
+.hobbies {
+  background: #ED6B86; /* wild watermelon */
+}
+.hobby-item {
+  overflow: hidden;
+}
+.hobby-item h3 {
+  margin-top: 0;
+}
+.hobby-item a {
+  color: #E2DFF5; /* lavender mist */
+}
+.hobby-item .btn {
+  color: #E2DFF5; /* lavender mist */
+  background: #211745; /* russian violet */
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.hobby-item .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+
+.ImageBig{
+  height: auto;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 /* Projects
 ------------------------------------*/
