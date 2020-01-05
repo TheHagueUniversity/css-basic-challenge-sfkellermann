@@ -1,15 +1,5 @@
 /*
 COLOR PALETTE
-https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
-*/
-
-/*
-COLOR PALETTE
 https://coolors.co/7fb285-0b0033-cbc0ad-ed6b86-361d2e
 #7FB285 - dark sea green
 #211745 - russian violet
@@ -41,11 +31,11 @@ img {
 
 /* unvisited link */
 a:link {
-  color: #FFE254; /* I changed the shade but stuck with yellow because it contrasts nicely with the background colors */
+  color: #FFE254; /* I changed the shade but stuck with yellow because it contrasts nicely with the background color in the header. I could have also just put #E2DFF5 here and defined the header link color in yellow.  */
 }
-/*a:hover {
+a:hover {
   text-decoration: none;
-} */
+}
 h1 {
   font-size: 100px;
   line-height: 1;
