@@ -8,6 +8,15 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #A1C6D7 - blue light
 */
 
+/*
+COLOR PALETTE
+https://coolors.co/7fb285-0b0033-cbc0ad-ed6b86-361d2e
+#7FB285 - dark sea green
+#211745 - russian violet
+#E2DFF5 - lavender mist
+#ED6B86 - wild watermelon
+#361D2E - dark purple
+*/
 
 /* Global styles
 ------------------------------------*/
@@ -19,7 +28,7 @@ html {
 }
 
 body {
-  color: #343434;
+  color: #131516;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
@@ -29,12 +38,14 @@ body {
 img {
   width: 300px;
 }
-a {
-  color: #FFE66D;
+
+/* unvisited link */
+a:link {
+  color: #FFE254; /* I changed the shade but stuck with yellow because it contrasts nicely with the background colors */
 }
-a:hover {
+/*a:hover {
   text-decoration: none;
-}
+} */
 h1 {
   font-size: 100px;
   line-height: 1;
@@ -43,7 +54,7 @@ h2 {
   font-size: 45px;
 }
 h1, h2 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Josefin Sans', cursive;
   font-weight: 400;
   margin: 0;
 }
@@ -74,21 +85,21 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
-  color: #F7FFF7;
+  background: #211745;
+  color: #E2DFF5;
 }
 
 
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #F7FFF7;
+  background: #7FB285;
 }
 .projects a {
-  color: #2F3061;
+  color: #E2DFF5;
 }
 .projects .btn {
-  color: #F7FFF7;
+  color: #E2DFF5;
   background: #2F3061;
   text-decoration: none;
   padding: 8px;
@@ -109,7 +120,10 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background: #ED6B86;
+}
+.work-experience a {
+  color: #E2DFF5;
 }
 
 
@@ -117,7 +131,7 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-image: url(../images/post-its-three-colors.jpg);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
@@ -130,14 +144,15 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
-  color: #F7FFF7;
+  background: #361D2E;
+  color: #E2DFF5;
 }
 .contact-list {
   list-style-type: none;
   padding: 0;
 }
 .contact-list a {
-  padding: 15px;
+  padding: 5px;
   display: inline-block;
+    color: #E2DFF5;
 }
