@@ -33,6 +33,9 @@ img {
 a:link {
   color: #FFE254; /* I changed the shade but stuck with yellow because it contrasts nicely with the background color in the header. I could have also just put #E2DFF5 here and defined the header link color in yellow.  */
 }
+a:visited {
+  color: #FFE254;    
+}
 a:hover {
   text-decoration: none;
 }
@@ -78,6 +81,18 @@ header {
   background: #211745; /* russian violet */
   color: #E2DFF5; /* lavender mist */
 }
+.links .btn {
+  color: #211745; /* russian violet */
+  background: #E2DFF5; /* lavender mist */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.links .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
 
 
 /* Projects
@@ -114,6 +129,21 @@ header {
 }
 .work-experience a {
   color: #E2DFF5; /* lavender mist */
+}
+.work-experience a {
+  color: #E2DFF5; /* lavender mist */
+}
+.work-experience .btn {
+  color: #E2DFF5; /* lavender mist */
+  background: #211745; /* russian violet */
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.work-experience .btn:hover {
+  background: rgba(47, 48, 97, 80%);
 }
 
 
